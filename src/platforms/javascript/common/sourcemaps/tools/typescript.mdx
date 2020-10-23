@@ -1,6 +1,8 @@
 ---
 title: TypeScript
 description: "The TypeScript compiler can be configured to output source maps."
+notSupported:
+  - javascript.nextjs
 ---
 
 The TypeScript compiler can output source maps. Configure the `sourceRoot` property to `/` to strip the build path prefix from generated source code references. This allows Sentry to match source files relative to your source root folder:
